@@ -176,6 +176,23 @@ header.site-header {
   margin-top: 1rem;
 }
 
+/* HOVER STATES */
+.main-nav a:hover {
+  color: var(--midnight-blue);
+  text-decoration: underline;
+}
+
+.gallery-link a:hover {
+  background-color: var(--champagne-gold);
+  color: var(--dark-charcoal);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+  color: var(--champagne-gold);
+}
+
 /* MEDIA QUERY (medium) */
 @media (min-width: 600px) {
   .gallery-grid {
