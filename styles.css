@@ -92,16 +92,19 @@ header.site-header {
 }
 
 .offering {
-  background-color: white;
-  border-left: 6px solid var(--olive-green);
-  padding: 1rem;
-  margin-bottom: 1rem;
+  background-color: var(--olive-green);
+  color: white;
+  border-left: 6px solid var(--champagne-gold);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
 }
 
 .offering h3 {
-  font-size: 1.25rem;
-  color: var(--olive-green);
+  font-size: 1.5rem;
+  color: var(--champagne-gold);
+  margin-bottom: 0.5rem;
 }
 
 .basket-list {
@@ -111,6 +114,10 @@ header.site-header {
 
 .basket-list li {
   margin-bottom: 0.5rem;
+}
+
+.basket-list li strong {
+  color: var(--champagne-gold);
 }
 
 .gallery-section {
@@ -155,6 +162,23 @@ header.site-header {
   display: inline-block;
 }
 
+/* HOVER STATES */
+.main-nav a:hover {
+  color: var(--midnight-blue);
+  text-decoration: underline;
+}
+
+.gallery-link a:hover {
+  background-color: var(--champagne-gold);
+  color: var(--dark-charcoal);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+  color: var(--champagne-gold);
+}
+
 .site-footer {
   background-color: var(--midnight-blue);
   color: white;
@@ -174,23 +198,6 @@ header.site-header {
   gap: 1.5rem;
   list-style: none;
   margin-top: 1rem;
-}
-
-/* HOVER STATES */
-.main-nav a:hover {
-  color: var(--midnight-blue);
-  text-decoration: underline;
-}
-
-.gallery-link a:hover {
-  background-color: var(--champagne-gold);
-  color: var(--dark-charcoal);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-}
-
-.footer-nav a:hover {
-  text-decoration: underline;
-  color: var(--champagne-gold);
 }
 
 /* MEDIA QUERY (medium) */
